@@ -1,5 +1,6 @@
-const dayjs = require("dayjs");
-// alert("Hoje é " + dayjs().format("DD/MM/YYYY"));
+import dayjs from "dayjs";
+
+// const dayjs = require("dayjs");
 
 function dateDefault() {
   const dateValue = document.getElementById("date").value;
