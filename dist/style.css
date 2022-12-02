@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(170, 169, 166);
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.result-age label {
+  width: 20px;
+}
+.result-age input {
+  width: 150px;
+  height: 1.5rem;
+}
+
+.date-format input {
+  width: 150px;
+  height: 1.5rem;
+}
+
+.date-format,
+.date-birthday,
+.result-age {
+  margin-top: 2rem;
+}
+
+h1 {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+button {
+  width: 100px;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 5px;
+  height: 1.5rem;
+  cursor: pointer;
+  transition: box-shadow 0.6s ease;
+}
+
+button:hover {
+  box-shadow: inset 100px 0 0 #00000055;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Dayjs</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="content">
+        <h1>Usando o Dayjs</h1>
+        <div class="date-format">
+          <label for="text">Data em formato dd/mm/yyyy:</label>
+          <input id="date" type="date" />
+          <input type="text" class="date-format" id="inputFormat" />
+          <button id="dateDefault">Clique</button>
+          <button id="clearFormat">Limpar</button>
+          <span id="result" type="text"></span>
+
+          <div class="date-birthday">
+            <label for="text">Insira a data do seu niver:</label>
+            <input id="birthday" type="date" />
+            <button id="dateNiver">Clique</button>
+            <button id="clear">Limpar</button>
+            <span id="resultBirthday" type="text"></span>
+
+            <div class="form">
+              <div class="result-age">
+                <label for="text">Sua idade:</label>
+                <input type="text" id="ageInYears" />
+
+                <div class="result-age">
+                  <label for="text">Seu próximo aniversário:</label>
+                  <input type="text" id="birthdayNext" />
+
+                  <div class="result-age">
+                    <label for="text"
+                      >Dias restantes para seu próximo aniversário</label
+                    >
+                    <input type="text" id="birthdayInDay" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script> -->
+    <!-- <script src="path/to/dayjs/dayjs.min.js"></script> -->
+  </body>
+</html>
